@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>São Paulo</title>
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>São Paulo</h1>
+    </header>
+    <main>
+        <div class="description">
+            <p>
+                <strong>São Paulo</strong> é um município brasileiro e o  
+                <strong>principal centro financeiro, corporativo e mercantil        </strong> da América do Sul. É a cidade mais populosa do Brasil, do continente americano, da lusofonia e de  <strong>o hemisfério sul</strong>
+                .São Paulo é a cidade brasileira mais <strong>influente no cenário global.</strong>
+                 O lema da cidade, presente em seu brasão oficial, é Non ducor, duco, frase latina que significa "Não sou conduzido, conduzo.
+            </p>
+        </div>
+
+        <div id="video">
+            <iframe width="100%" height="700" src="https://www.youtube.com/embed/ToqIPyD8Suo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </iframe>
+        </div>
+        <div id="curiosidades">
+            <h2>Curiosidades</h2>
+            <ul>
+                <li><strong>São Paulo já teve um rinoceronte como vereador!</strong> Em 1959 os paulistanos estavam extremamente descontentes com os candidatos a vereadores, por isso elegeram um rinoceronte chamado “Cacareco”. Naquela época as eleições eram feitas manualmente e o animal recebeu aproximadamente 100 mil votos para o cargo.</li>
+                <li><strong>Paulistanos consomem 1 milhão de pizzas por dia! </strong>
+                    Segundo dados do São Paulo Convention & Visitors Bureau, São Paulo é considerada a segunda cidade que mais consome pizzas no mundo, somando mais de 700 pizzas por minuto.</li>
+                <li><strong>São Paulo contém uma cratera habitável!</strong>
+                    Em São Paulo, no distrito de Parelheiros existe uma cratera causada por um meteorito há 40 milhões de anos atrás e atualmente, mais ou menos 40 mil pessoas moram nesta região.</li>
+                <li><strong>Primeira universidade de Direito criada em São Paulo.</strong> A primeira universidade de Direito do Brasil foi criada em São Paulo e nomeada “Faculdade de Direito de São Paulo”.</li>
+            </ul>
+        </div>
+        <div id="socialmedia">
+            <h2>Redes Sociais</h2>
+            <div class="icons">
+                <!DOCTYPE html>
+                <body>
+                    <a href="https://www.instagram.com/governosp/">
+                    <img src="../img/icons8-instagram-50.png">
+                    </a>
+                    <a href="https://www.youtube.com/user/governosp">
+                    <img src="../img/icons8-youtube-48.png">
+                    </a>
+                </body>
+                </html>
+        </div>
+        <div id="cadastro">
+            <h2>Cadastro</h2>
+            <form action="#" method="POST">
+                <fieldset>
+                  <legend>Dados pessoais: </legend>
+                  <label for="email">Email: </label>
+                  <input type="email" name="email" id="email" placeholder="Insira seu email" required>
+                  <label for="nome">Nome: </label>
+                  <input type="text" name="nome" id="nome">
+                  <label for="contato">Contato: </label>
+                  <input type="tel" name="contato">
+                  <label for="nascimento">Data de Nascimento: </label>
+                  <input type="date" name="nascimento">
+                </fieldset>
+                <fieldset>
+                  <legend>Escolha seu destino:</legend>
+                  <select name="destino" id="destino">
+                    <optgroup label="Opções de destino">
+                      <option value="paulista">Paulista</option>
+                      <option value="morumbi">Morumbi</option>
+                      <option value="moema">Moema</option>
+                      <option value="alpha">Alpha Ville</option>
+                    </optgroup>
+                  </select>
+                </fieldset>
+                <fieldset>
+                  <legend>É maior de 18 anos? </legend>
+                  <div class="maioridade">
+                    <input type="radio" name="maioridade" id="sim">
+                    <label for="sim">Sim</label>
+                    <input type="radio" name="maioridade" id="nao">
+                    <label for="nao">Não</label>
+                  </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Qual é o seu interesse?</legend>
+                    <div class="interesses">
+                      <input type="radio" name="interesses" id="turista">
+                      <label for="sim">Turismo</label>
+                      <input type="radio" name="interesses" id="estudante">
+                      <label for="estudante">Estudo</label>
+                      <input type="radio" name="interesses" id="residente">
+                      <label for="residente">Residir</label>
+                    </div>
+                  </fieldset>
+                <button type="submit">Salvar</button>
+                <button type="reset">Cancelar</button>
+              </form>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap');
+
+main {
+    background: #807d7d5d;
+    border-radius: 10px;
+    margin: 1% 0;
+    padding: 2%;
+    width: 96%;
+    display: block;
+}
+
+body {
+    font-family: "Kaisei HarunoUmi", serif;
+    color:white;
+    background-image: url("../img/SP.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 98%;
+    margin: 0 auto;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+
+
+header {
+    font-size: larger;
+    text-align: center;
+    background-color:#807d7d5d;
+    border-radius:10px;
+    margin: 1% 0;
+    padding: 1% 2%;
+    width: 96%;
+    display: block;
+}
+
+*{
+    margin: 1; 
+}
+
+#video ,#curiosidades, #socialmedia, .icons {
+    margin: 1% auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#curiosidades{
+    text-align: center;
+    background-color:#807d7d5d;
+    border-radius: 5px;
+    margin: 1% 0;
+    padding: 1% 2%;
+    width: 98%;
+    display:inline-block;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#socialmedia{
+    text-align: center;
+    background-color:#807d7d5d;
+    border-radius: 5px;
+    margin: 1% 0;
+    padding: 1% 2%;
+    width: 98%;
+    display:inline-block;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.forms ul{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 0px 450px;
+}
+
+
